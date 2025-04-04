@@ -1,0 +1,67 @@
+# Built files
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# Generated files
+bin/
+gen/
+build/
+out/
+release/
+
+# Gradle files
+.gradle/
+gradle-app.setting
+!gradle-wrapper.jar
+
+# Local configuration files
+*.iml
+.idea/
+.DS_Store
+*.swp
+*.swo
+
+# Keystore files
+*.jks
+*.keystore
+*.key
+*.cert
+
+# Android Studio
+captures/
+.navigation/
+*.keystore
+local.properties
+
+# Logs
+*.log
+log/
+
+# Firebase/Google Services
+google-services.json
+google-services.xml
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+fastlane/readme.md
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# WebView cache
+app/src/main/assets/www/.cache
+app/src/main/assets/www/.tmp
+
+# Node modules (si usas herramientas basadas en Node)
+node_modules/
+
+# Archivos temporales
+*.tmp
+*.bak
